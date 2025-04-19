@@ -1,0 +1,13 @@
+# The main pipeline for dbx_dev_setup
+resources:
+  pipelines:
+    dbx_dev_setup_pipeline:
+      name: dbx_dev_setup_pipeline
+      catalog: minerva_dev
+      schema: dbx_dev_setup_${bundle.target}
+      libraries:
+        - notebook:
+            path: ../src/dlt_pipeline.ipynb
+
+      configuration:
+        bundle.sourcePath: ${workspace.file_path}/src
