@@ -1,0 +1,6 @@
+customer_id,name,age,salary,email
+1,Alice Johnson,32,75000,alice@example.com
+2,Bob Smith,28,65000,bob@example.com
+3,Carol White,,72000,carol@example.com
+4,David Brown,45,95000,david@example.com
+5,Eve Davis,29,,eve@example.com
